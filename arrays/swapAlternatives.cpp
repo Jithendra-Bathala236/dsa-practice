@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+// input: [1,2,3,4,5]
+// output: [2,1,4,3,5]
+// bascially it swaps the alternate values in a given array
+
 void swapAlternatives(int *arr, int size)
 {
     int temp = 0;
@@ -25,7 +29,3 @@ int main()
     }
     return 0;
 }
-
-// input: [1,2,3,4,5]
-// output: [2,1,4,3,5]
-// bascially it swaps the alternate values in a given array
