@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 
+// input: [2, 4, 7, 2, 7]
+// output: 4
+// bascially it gives the unique element (non repeating element) from the given array
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
 int findUnique(int *arr, int size)
 {
     int uniqueElement = 0;
@@ -15,9 +21,9 @@ int findUnique(int *arr, int size)
 int main()
 {
 
-    int arr[7] = {2, 3, 1, 6, 3, 6, 2};
+    int arr[5] = {2, 4, 7, 2, 7};
 
-    cout << findUnique(arr, 7);
+    cout << findUnique(arr, 5);
 
     return 0;
 }

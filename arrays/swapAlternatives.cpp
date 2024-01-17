@@ -4,6 +4,8 @@ using namespace std;
 // input: [1,2,3,4,5]
 // output: [2,1,4,3,5]
 // bascially it swaps the alternate values in a given array
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 
 void swapAlternatives(int *arr, int size)
 {
